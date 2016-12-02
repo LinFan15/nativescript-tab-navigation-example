@@ -1,0 +1,9 @@
+<Page isoSwipeBackNavigationEnabled="true" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+        <ActionBar title="Tab 3"/>
+    </Page.actionBar>
+    <StackLayout>
+        <Label text="This is the view for tab 3" />
+        <Button text="Navigate to another screen" tap="onTap" />
+    </StackLayout>
+</Page>

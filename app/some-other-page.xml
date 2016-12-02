@@ -1,0 +1,9 @@
+<Page isoSwipeBackNavigationEnabled="true" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+        <ActionBar title="Some Other Page"/>
+    </Page.actionBar>
+    <StackLayout>
+        <Label text="This is some other page" />
+        <Button text="Navigate to another screen" tap="onTap" />
+    </StackLayout>
+</Page>

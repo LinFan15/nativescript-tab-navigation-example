@@ -1,0 +1,38 @@
+﻿Page {
+    background-color:#34495e;
+    margin-top:-20; /* fix nested frame spacing */
+}
+
+ActionBar {
+    background-color:#34495e;
+    color:#ffffff;
+}
+
+.navigation-frame Page {
+    margin-top:20; /* fix nested frame spacing */
+    background-color: #ffffff;
+}
+
+.tab {
+    padding:10;
+    border-top-color: #cccccc;
+    border-top-width: 1;
+    background-color:#eeeeee;
+    color:#444;
+}
+
+.tab-selected {
+    color:#2980b9;
+}
+
+.tab-icon {
+    text-align: center;
+    font-size:18pt;
+    font-family: "FontAwesome";
+    margin-bottom:5pt;
+}
+
+.tab-label {
+    text-align: center;
+    font-size:12pt;
+}
