@@ -19,6 +19,9 @@ var TabNavigation = (function (_super) {
         var _this = this
         this.on('loaded', function(args){
             var obj = args.object
+            if(obj.id==='tab-navigation'){
+              return;   
+            }
             _this.createUi(obj.tabs)
             _this.navFrame.isLoaded = false
             _this.navFrame.navigate(obj.tabs[0].path)
